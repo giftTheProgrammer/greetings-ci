@@ -2,7 +2,7 @@
 /* 8-31-21 */
 public class echoMsg  {
     public static void main(String[] args) {
-      String value = System.getenv("USERNAME");
+      String value = System.getenv("USERNAME"); //prints out the username
       if (value != null) {
           System.out.format("Greetings %s!\n",value);
       } else {
